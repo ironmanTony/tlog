@@ -2,6 +2,13 @@
 
 # 使用方法：
 
+添加依赖
+
+```
+implementation 'com.github.ironmanTony:tlog:v1.0.0'
+```
+> add jetpack:`maven { url 'https://jitpack.io' }`
+
 init
 ```
 TLog.config.openLog = BuildConfig.DEBUG
