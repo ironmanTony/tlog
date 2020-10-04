@@ -3,6 +3,9 @@ apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 apply plugin: 'kotlin-kapt' // Required for annotation processing.
 apply plugin: 'io.objectbox' // Apply last.
+apply plugin: 'com.github.dcendents.android-maven'
+
+group='com.github.ironmantony'
 
 android {
     compileSdkVersion 30
@@ -12,7 +15,7 @@ android {
         minSdkVersion 19
         targetSdkVersion 30
         versionCode 1
-        versionName "1.0"
+        versionName "1.0.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles "consumer-rules.pro"
