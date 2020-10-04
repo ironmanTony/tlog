@@ -14,10 +14,11 @@ TLog.log("test", "this is a test")
 
 打开log查看页面：
 ```
-startActivity(Intent(requireContext(), TLogActivity::class.java))
+TLogActivity.start(requireContext())
 ```
 如果自定义可以直接使用`TLogFragment`
 
-![](./img/tlog_main.png)
-![](./img/tlog_filter.png)
+<img src="./img/tlog_main.png" width="375"/>
+
+<img src="./img/tlog_filter.png" width="375"/>
 
