@@ -1,13 +1,12 @@
 package com.tlog.example
 
-import android.content.Intent
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
 import androidx.databinding.DataBindingUtil
+import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import com.tlog.example.databinding.FragmentFirstBinding
 import com.tony.tlog.TLog
@@ -45,12 +44,12 @@ class FirstFragment : Fragment() {
     }
 
     private fun addLogs() {
-        repeat(1000) {
-            TLog.log("test", "add log:$it")
+        repeat(500) {
+            TLog.log("tlog", "tlog add log:$it")
         }
     }
 
     private fun goTLogActivity() {
-        startActivity(Intent(requireContext(), TLogActivity::class.java))
+        TLogActivity.start(requireContext())
     }
 }
