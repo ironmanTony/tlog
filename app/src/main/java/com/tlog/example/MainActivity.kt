@@ -1,4 +1,4 @@
-package com.tony.tlog
+package com.tlog.example
 
 import android.os.Bundle
 import com.google.android.material.floatingactionbutton.FloatingActionButton
