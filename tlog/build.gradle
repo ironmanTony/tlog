@@ -5,7 +5,7 @@ apply plugin: 'kotlin-kapt' // Required for annotation processing.
 apply plugin: 'io.objectbox' // Apply last.
 apply plugin: 'com.github.dcendents.android-maven'
 
-group='com.github.ironmantony'
+group='com.github.tony'
 
 android {
     compileSdkVersion 30
@@ -54,5 +54,6 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
 
     api 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0'
+//    implementation 'com.github.ironmanTony:common_adr:1.0.2'
 
 }
