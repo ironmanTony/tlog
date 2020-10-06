@@ -4,34 +4,34 @@
   "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
   "entities": [
     {
-      "id": "1:7239267871325178844",
-      "lastPropertyId": "5:7366042399275210297",
+      "id": "1:2793659180338213418",
+      "lastPropertyId": "5:1223456442613483705",
       "name": "TLogData",
       "properties": [
         {
-          "id": "1:6694798394159335276",
+          "id": "1:1831863183698842194",
           "name": "id",
           "type": 6,
           "flags": 1
         },
         {
-          "id": "2:2886024959977468413",
+          "id": "2:516850066874116461",
           "name": "time",
           "type": 6,
           "flags": 2
         },
         {
-          "id": "3:4577828292920940218",
+          "id": "3:6114593709901021890",
           "name": "tag",
           "type": 9
         },
         {
-          "id": "4:7350591076907565450",
+          "id": "4:1732858402152265545",
           "name": "log",
           "type": 9
         },
         {
-          "id": "5:7366042399275210297",
+          "id": "5:1223456442613483705",
           "name": "verbose",
           "type": 6,
           "flags": 4
@@ -40,7 +40,7 @@
       "relations": []
     }
   ],
-  "lastEntityId": "1:7239267871325178844",
+  "lastEntityId": "1:2793659180338213418",
   "lastIndexId": "0:0",
   "lastRelationId": "0:0",
   "lastSequenceId": "0:0",
