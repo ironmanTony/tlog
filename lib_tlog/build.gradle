@@ -5,7 +5,7 @@ apply plugin: 'kotlin-kapt' // Required for annotation processing.
 apply plugin: 'io.objectbox' // Apply last.
 apply plugin: 'com.github.dcendents.android-maven'
 
-group='com.github.tony'
+group='com.github.ironmantony'
 
 android {
     compileSdkVersion 30
